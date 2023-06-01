@@ -29,9 +29,9 @@ function ResponsiveAppBar() {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <BakeryDiningIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    <BakeryDiningIcon fontSize='large' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                     <Typography
-                        variant="h6"
+                        variant="h5"
                         noWrap
                         component="a"
                         href="/"
@@ -84,12 +84,13 @@ function ResponsiveAppBar() {
                             ))}
                         </Menu>
                     </Box>
-                    <BakeryDiningIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+                    <BakeryDiningIcon fontSize='large' sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
-                        variant="h5"
+                        variant="h4"
                         noWrap
                         component="a"
                         href=""
+    
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
